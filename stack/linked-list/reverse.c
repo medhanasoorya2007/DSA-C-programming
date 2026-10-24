@@ -71,6 +71,8 @@ int main() {
     printf("=== Basic operations ===\n");
     push(10); push(20); push(30);
     display();
+    reverseStack();
+    display();
 
     return 0;
 }
